@@ -17,7 +17,7 @@ pipeline {
 
         stage('Run Container') {
             steps {
-                sh 'docker run -d -p 8000:8000 --name mlops-container mlops-project'
+                sh 'docker run -d -p 8001:8000 --name mlops-container mlops-project'
             }
         }
     }
