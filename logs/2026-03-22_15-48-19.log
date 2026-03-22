@@ -1,0 +1,18 @@
+[2026-03-22 15:48:20,101] 17 root - INFO - Data Ingestion started
+[2026-03-22 15:48:20,176] 27 root - INFO - Raw data saved
+[2026-03-22 15:48:20,219] 37 root - INFO - Train-test split done
+[2026-03-22 15:48:20,220] 58 root - INFO - Data Transformation started
+[2026-03-22 15:48:20,276] 21 root - INFO - Auto-detecting column types
+[2026-03-22 15:48:20,277] 27 root - INFO - Numerical columns: ['Order', 'PID', 'MS SubClass', 'Lot Frontage', 'Lot Area', 'Overall Qual', 'Overall Cond', 'Year Built', 'Year Remod/Add', 'Mas Vnr Area', 'BsmtFin SF 1', 'BsmtFin SF 2', 'Bsmt Unf SF', 'Total Bsmt SF', '1st Flr SF', '2nd Flr SF', 'Low Qual Fin SF', 'Gr Liv Area', 'Bsmt Full Bath', 'Bsmt Half Bath', 'Full Bath', 'Half Bath', 'Bedroom AbvGr', 'Kitchen AbvGr', 'TotRms AbvGrd', 'Fireplaces', 'Garage Yr Blt', 'Garage Cars', 'Garage Area', 'Wood Deck SF', 'Open Porch SF', 'Enclosed Porch', '3Ssn Porch', 'Screen Porch', 'Pool Area', 'Misc Val', 'Mo Sold', 'Yr Sold', 'SalePrice']
+[2026-03-22 15:48:20,279] 28 root - INFO - Categorical columns: ['MS Zoning', 'Street', 'Alley', 'Lot Shape', 'Land Contour', 'Utilities', 'Lot Config', 'Land Slope', 'Neighborhood', 'Condition 1', 'Condition 2', 'Bldg Type', 'House Style', 'Roof Style', 'Roof Matl', 'Exterior 1st', 'Exterior 2nd', 'Mas Vnr Type', 'Exter Qual', 'Exter Cond', 'Foundation', 'Bsmt Qual', 'Bsmt Cond', 'Bsmt Exposure', 'BsmtFin Type 1', 'BsmtFin Type 2', 'Heating', 'Heating QC', 'Central Air', 'Electrical', 'Kitchen Qual', 'Functional', 'Fireplace Qu', 'Garage Type', 'Garage Finish', 'Garage Qual', 'Garage Cond', 'Paved Drive', 'Pool QC', 'Fence', 'Misc Feature', 'Sale Type', 'Sale Condition']
+[2026-03-22 15:48:20,279] 73 root - INFO - Fitting preprocessor
+[2026-03-22 15:48:20,322] 83 root - INFO - Preprocessor saved
+[2026-03-22 15:48:20,323] 43 root - INFO - Model Training Started
+[2026-03-22 15:48:20,323] 24 root - INFO - Training model: LinearRegression
+[2026-03-22 15:48:20,400] 34 root - INFO - LinearRegression R2 Score: 0.8904480556078351
+[2026-03-22 15:48:20,400] 24 root - INFO - Training model: DecisionTree
+[2026-03-22 15:48:20,473] 34 root - INFO - DecisionTree R2 Score: 0.8551850292685732
+[2026-03-22 15:48:20,473] 24 root - INFO - Training model: RandomForest
+[2026-03-22 15:48:24,680] 34 root - INFO - RandomForest R2 Score: 0.9120028893123884
+[2026-03-22 15:48:24,680] 61 root - INFO - Best Model: RandomForest with score 0.9120028893123884
+[2026-03-22 15:48:24,698] 68 root - INFO - Best model saved

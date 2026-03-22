@@ -1,0 +1,18 @@
+[2026-03-22 16:40:59,656] 17 root - INFO - Data Ingestion started
+[2026-03-22 16:40:59,767] 27 root - INFO - Raw data saved
+[2026-03-22 16:40:59,817] 37 root - INFO - Train-test split done
+[2026-03-22 16:40:59,818] 58 root - INFO - Data Transformation started
+[2026-03-22 16:40:59,902] 21 root - INFO - Auto-detecting column types
+[2026-03-22 16:40:59,902] 27 root - INFO - Numerical columns: ['Gr Liv Area', 'Bedroom AbvGr', 'Full Bath']
+[2026-03-22 16:40:59,902] 28 root - INFO - Categorical columns: ['Neighborhood']
+[2026-03-22 16:40:59,902] 78 root - INFO - Fitting preprocessor
+[2026-03-22 16:40:59,922] 88 root - INFO - Preprocessor saved
+[2026-03-22 16:40:59,922] 43 root - INFO - Model Training Started
+[2026-03-22 16:40:59,922] 24 root - INFO - Training model: LinearRegression
+[2026-03-22 16:40:59,942] 34 root - INFO - LinearRegression R2 Score: 0.7730423760268288
+[2026-03-22 16:40:59,942] 24 root - INFO - Training model: DecisionTree
+[2026-03-22 16:40:59,952] 34 root - INFO - DecisionTree R2 Score: 0.6904991515494465
+[2026-03-22 16:40:59,952] 24 root - INFO - Training model: RandomForest
+[2026-03-22 16:41:00,681] 34 root - INFO - RandomForest R2 Score: 0.8133580457290871
+[2026-03-22 16:41:00,681] 61 root - INFO - Best Model: RandomForest with score 0.8133580457290871
+[2026-03-22 16:41:00,716] 68 root - INFO - Best model saved
